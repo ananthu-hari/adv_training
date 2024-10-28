@@ -1,0 +1,6 @@
+<main>      
+    <h2>Hello {{ firstName }}</h2>      
+    <input type="text" [(ngModel)]="firstName" />  
+    <h2>Counter: {{ initialCount }}</h2>
+    <app-counter-component [(count)]="initialCount"></app-counter-component>    
+</main>

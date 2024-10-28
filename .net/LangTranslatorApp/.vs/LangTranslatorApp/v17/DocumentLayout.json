@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ATH Advanced Training\\Day 12 (23.10.2024)\\LangTranslatorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1655CEAB-DCB0-4EAB-8300-99E1787F19A0}|LangTranslatorApp\\LangTranslatorApp.csproj|d:\\ath advanced training\\day 12 (23.10.2024)\\langtranslatorapp\\langtranslatorapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1655CEAB-DCB0-4EAB-8300-99E1787F19A0}|LangTranslatorApp\\LangTranslatorApp.csproj|solutionrelative:langtranslatorapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1655CEAB-DCB0-4EAB-8300-99E1787F19A0}|LangTranslatorApp\\LangTranslatorApp.csproj|d:\\ath advanced training\\day 12 (23.10.2024)\\langtranslatorapp\\langtranslatorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1655CEAB-DCB0-4EAB-8300-99E1787F19A0}|LangTranslatorApp\\LangTranslatorApp.csproj|solutionrelative:langtranslatorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ATH Advanced Training\\Day 12 (23.10.2024)\\LangTranslatorApp\\LangTranslatorApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LangTranslatorApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ATH Advanced Training\\Day 12 (23.10.2024)\\LangTranslatorApp\\LangTranslatorApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LangTranslatorApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T04:25:52.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ATH Advanced Training\\Day 12 (23.10.2024)\\LangTranslatorApp\\LangTranslatorApp\\Program.cs",
+              "RelativeDocumentMoniker": "LangTranslatorApp\\Program.cs",
+              "ToolTip": "D:\\ATH Advanced Training\\Day 12 (23.10.2024)\\LangTranslatorApp\\LangTranslatorApp\\Program.cs",
+              "RelativeToolTip": "LangTranslatorApp\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:15:57.039Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

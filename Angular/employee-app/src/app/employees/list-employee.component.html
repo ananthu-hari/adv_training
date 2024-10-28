@@ -1,0 +1,26 @@
+<div class="container">
+    <h1 class="text-center">Employee List</h1>
+    <div class="row d-flex justify-content-center">
+        @for (employee of employees; track $index)
+        {
+            <div class="card" style="width: 18rem;">
+                <img [src]="employee.photoPath" alt="{{ employee.name }}" class="card-img-top" />
+                <div class="card-body">
+                    <h3 class="card-title">{{ employee.name }}</h3>
+                    <p class="card-text">
+                        <strong>Gender:</strong> {{ employee.gender }} <br>
+                        <strong>Email:</strong> {{ employee.email }} <br>
+                        <strong>Phone:</strong> {{ employee.phoneNumber }} <br>
+                        <strong>Date of Birth:</strong> {{ employee.dateOfBirth | date }} <br>
+                        <strong>Department:</strong> {{ employee.department }} <br>
+                        <strong>Status:</strong> {{ employee.isActive ? 'Active' : 'Inactive' }}
+                    </p>
+                </div>
+            </div>
+        } 
+        @empty 
+        {
+            <li>There are no items.</li>
+        }
+    </div>
+</div>

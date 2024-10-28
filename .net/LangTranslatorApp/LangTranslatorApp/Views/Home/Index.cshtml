@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = @Localizer["Home Page"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Localizer["Welcome"]</h1>
+    <p>@Localizer["Learn about building Web apps with ASP.NET Core"]<a href="https://learn.microsoft.com/aspnet/core"></a>.</p>
+    @* <a href="?culture=en-US">English</a> | <a href="?culture=hi-IN">Hindi</a> | <a href="?culture=ml-IN">Malayalam</a> | <a href="?culture=es-SP">Spanish</a> *@
+</div>
+
+<label for="language-select">Choose a language:</label>
+<select id="language-select" onchange="changeLanguage()">
+    <option value="?culture=en-US">English</option>
+    <option value="?culture=hi-IN">हिंदी</option>
+    <option value="?culture=ml-IN">മലയാളം</option>
+    <option value="?culture=es-SP">Español</option>
+</select>
+
+<script>
+    // Function to change language
+    function changeLanguage() {
+        const select = document.getElementById("language-select");
+        const selectedValue = select.value;
+        window.location.href = selectedValue;
+    }
+
+    // Set the currently selected option based on the current URL
+    const currentUrl = window.location.search;
+    const select = document.getElementById("language-select");
+    for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].value === currentUrl) {
+            select.selectedIndex = i;
+            break;
+        }
+    }
+</script>
+
+@* @section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        const translations = {
+            en: {
+                welcome: "Welcome",
+                learn: "Learn about <a href='https://learn.microsoft.com/aspnet/core'>building Web apps with ASP.NET Core</a>."
+            },
+            es: {
+                welcome: "Bienvenido",
+                learn: "Aprende sobre <a href='https://learn.microsoft.com/aspnet/core'>la construcción de aplicaciones web con ASP.NET Core</a>."
+            }
+        };
+
+        $(document).ready(function () {
+            $('#toSpanishBtn').click(function () {
+                $('#welcomeText').text(translations.es.welcome);
+                $('#learnText').html(translations.es.learn);
+            });
+
+            $('#toEnglishBtn').click(function () {
+                $('#welcomeText').text(translations.en.welcome);
+                $('#learnText').html(translations.en.learn);
+            });
+        });
+    </script>
+    }
+*@

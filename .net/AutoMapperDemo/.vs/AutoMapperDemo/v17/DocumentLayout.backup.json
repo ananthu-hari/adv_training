@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{003951D6-F75A-40F8-B624-811A89ED35D8}|AutoMapperDemo\\AutoMapperDemo.csproj|d:\\ath advanced training\\day 8 (17.10.2024)\\automapperdemo\\automapperdemo\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003951D6-F75A-40F8-B624-811A89ED35D8}|AutoMapperDemo\\AutoMapperDemo.csproj|solutionrelative:automapperdemo\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003951D6-F75A-40F8-B624-811A89ED35D8}|AutoMapperDemo\\AutoMapperDemo.csproj|d:\\ath advanced training\\day 8 (17.10.2024)\\automapperdemo\\automapperdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003951D6-F75A-40F8-B624-811A89ED35D8}|AutoMapperDemo\\AutoMapperDemo.csproj|solutionrelative:automapperdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003951D6-F75A-40F8-B624-811A89ED35D8}|AutoMapperDemo\\AutoMapperDemo.csproj|d:\\ath advanced training\\day 8 (17.10.2024)\\automapperdemo\\automapperdemo\\models\\mymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003951D6-F75A-40F8-B624-811A89ED35D8}|AutoMapperDemo\\AutoMapperDemo.csproj|solutionrelative:automapperdemo\\models\\mymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\AutoMapperDemo\\Program.cs",
+              "RelativeDocumentMoniker": "AutoMapperDemo\\Program.cs",
+              "ToolTip": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\AutoMapperDemo\\Program.cs*",
+              "RelativeToolTip": "AutoMapperDemo\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:53:07.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyMappingProfile.cs",
+              "DocumentMoniker": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\AutoMapperDemo\\Models\\MyMappingProfile.cs",
+              "RelativeDocumentMoniker": "AutoMapperDemo\\Models\\MyMappingProfile.cs",
+              "ToolTip": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\AutoMapperDemo\\Models\\MyMappingProfile.cs",
+              "RelativeToolTip": "AutoMapperDemo\\Models\\MyMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:51:24.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\AutoMapperDemo\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "AutoMapperDemo\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\ATH Advanced Training\\Day 8 (17.10.2024)\\AutoMapperDemo\\AutoMapperDemo\\Controllers\\EmployeeController.cs*",
+              "RelativeToolTip": "AutoMapperDemo\\Controllers\\EmployeeController.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowDwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:41:43.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
